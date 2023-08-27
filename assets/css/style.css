@@ -1,0 +1,114 @@
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+/**header start**/
+header{
+    padding: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 85%;
+    height: 1rem;
+    background: #eee;
+}
+i{
+    color: #0592e4ed;
+    font-size: 25px;
+}
+hr{
+    margin-top: 5rem;
+    border: none;
+    height: 1.5px;
+    background-color: #00000028;
+    margin-top: 4.45rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#flipped-icon {
+    transform: rotateY(180deg);
+}
+/**header end**/
+
+
+/**chat contaioner start**/
+.chat-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.message {
+    display: flex;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5rem;
+}
+.incoming {
+    background: #4a4a4a45;
+    justify-content: flex-start;
+    margin-right: 30%;
+}
+.outgoing {
+    background: #0592e4ed;
+    color:#eee ;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 30%;
+}
+.outgoing p,
+.incoming p {
+    margin: .5rem;
+}
+/**chat container end**/
+
+/**footer start**/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .5rem;
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+    background: #eee;
+}
+#text{
+    background: transparent;
+    border: none;
+    width: 5rem;
+}
+.messaage-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #5555552a;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+/**
+input[type="text"] {
+    background-color:
+    border: none; 
+    border-bottom: 1px solid #ccc; 
+    padding: 5px;
+}**/
+input[type="text"]:focus {
+    background-color: transparent; /* Keep the background transparent when focused */
+    outline: none; /* Remove the default focus outline */
+    /* You can add additional styles here if needed */
+}
+/**footer end**/
+
+img{
+    width: 45px;
+    border-radius: 25px;
+}
